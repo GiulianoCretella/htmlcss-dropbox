@@ -83,7 +83,6 @@ ul.button-side{
     text-decoration: none;
     padding: 5px 18px;
     background-color:#0160FF;
-    font-size: 14px;
     color: white;
     display: inline;
     vertical-align: middle;
@@ -116,6 +115,7 @@ ul.button-side{
     vertical-align: middle;
     position: relative;
     bottom:-80px;
+    padding-left: 30px;
 }
 .text-box p{
     text-align: left;
@@ -124,7 +124,7 @@ ul.button-side{
 .text-box .button{
     display: block;
     margin: 30px 0 10px;
-    width:60%;
+    width:200px;
 }
 .text-box #arrow{
     font-size: 80px;
