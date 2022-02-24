@@ -185,13 +185,12 @@ ul.button-side{
 /* contenitore scelta  */
 
 .choice-container{
-    height: 700px;
-    margin-right: 40px;
-    width: calc(100% / 3 - 40px);
+    margin-right: 5%;
+    width: calc(100% / 3 - 5%);
     border: 1px solid grey;
     vertical-align: middle;
 }
-.choice-container span{
+.choice-container,span{
     display: block;
 }
 
@@ -240,6 +239,41 @@ ul.button-side{
 }
 hr{
     width: 20%;
+}
+
+/* teamsection  */
+.team{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+.team-name{
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+}
+.enterprise{
+    padding: 10px 20px;
+}
+.team-title{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 1% 0;
+}
+.team-suggest{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3%;
+
+}
+.team-solutions{
+    font-size: 12px;
+}
+
+.enterprise .button{
+    vertical-align: middle;
+    margin: 15px;
 }
 
 
