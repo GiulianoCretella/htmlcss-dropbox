@@ -16,6 +16,7 @@
 body{
     min-width: 1200px;
     font-family: 'Open Sans', sans-serif;
+    height:10000px;
 }
 .left{
     float: left;
@@ -32,6 +33,7 @@ nav{
     top: 0;
     left: 0;
     background-color: white;
+    z-index: 20;
 }
 /* logo  */
 .logo{
@@ -77,7 +79,7 @@ ul.button-side{
     vertical-align: middle;
     text-align: right;
 }
-#inizia .button{
+.button{
     text-decoration: none;
     padding: 5px 18px;
     background-color:#0160FF;
@@ -87,12 +89,61 @@ ul.button-side{
     vertical-align: middle;
     font-size: 12px;
 }
-
+ /* jumbotron  */
 .jumbotron{
-    margin-top:3%;
-    height: 3000px;
+    margin-top:4%;
     background-color: #B3CFE7;;
 }
+/* titolo jumbo  */
+.jumbotron .title{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.jumbotron .title h1{
+    font-size: 61px;
+    padding: 10px;
+}
+/* box jumbo  */
+.jumbo-box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* testo jumbo */
+.text-box{
+    width: 30%;
+    vertical-align: middle;
+    position: relative;
+    bottom:-80px;
+}
+.text-box p{
+    text-align: left;
+    font-size: 12px;
+}
+.text-box .button{
+    display: block;
+    margin: 30px 0 10px;
+    width:60%;
+}
+.text-box #arrow{
+    font-size: 80px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+/* img jumbo  */
+.img-box{
+    width: 70%;
+    vertical-align: middle;
+    position: relative;
+    bottom:-80px;
+}
+.img-box img{
+    width: 100%;
+    object-fit: cover;
+}
+
 
 /* 
 
