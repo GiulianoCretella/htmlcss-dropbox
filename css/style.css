@@ -14,7 +14,7 @@
 }
 
 body{
-    /* min-width: 1200px; */
+    min-width: 1200px;
     font-family: 'Open Sans', sans-serif;
 }
 .left{
@@ -35,14 +35,13 @@ nav{
 }
 /* logo  */
 .logo{
-    width: 6%;
+    width: 8%;
     text-align: center;
-    vertical-align: middle;
 }
 .logo img{
-    width: 100%;
-    object-fit: cover;
-
+   width: 100%;
+   object-fit: cover;
+    vertical-align: middle;
 }
 /* barra di navigazione */
 nav ul{
@@ -58,7 +57,7 @@ nav ul li a{
     vertical-align: middle;
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     padding: 24.5px;
 }
 nav ul li a:hover{
@@ -86,6 +85,7 @@ ul.button-side{
     color: white;
     display: inline;
     vertical-align: middle;
+    font-size: 12px;
 }
 
 .jumbotron{
