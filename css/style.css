@@ -188,7 +188,7 @@ margin: 0 5%;
 }
 .choice-container{
     width: 30%;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     vertical-align: middle;
 }
 .choice-container,span{
@@ -204,7 +204,7 @@ margin: 0 5%;
 .choice-name{
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
 }
 .choice-title{
     font-size: 25px;
@@ -249,12 +249,12 @@ hr{
 .team{
     width: 60%;
     margin: 0 auto;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
 }
 .team-name{
     width:100%;
     text-align: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
     font-size: 14px;
 }
 .enterprise{
@@ -280,6 +280,42 @@ hr{
     margin: 15px;
 }
 
+/* foto e descrizione */
+.photo-box{
+    width: 60%;
+    margin: 5% auto;
+}
+.photo-box .photo{
+    width: 50%;
+}
+.photo img{
+    width: 100%;
+    object-fit: contain;
+}
+.photo-box .description{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+  
+}
+.photo-box .description span{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+.photo-box .description p{
+    font-size: 12px;
+    padding-bottom: 10%;
+}
+#photo-button{
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid grey;
+    color: black;
+    padding: 5px 18px;
+    display: inline;
+    font-size: 14px;
+}
 
 /* 
 
