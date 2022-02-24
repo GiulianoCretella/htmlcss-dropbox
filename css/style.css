@@ -12,7 +12,9 @@
     display: table;
     clear: both;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     min-width: 1200px;
     font-family: 'Open Sans', sans-serif;
@@ -143,6 +145,7 @@ ul.button-side{
     width: 100%;
     object-fit: cover;
 }
+
 
 /* main  */
 
