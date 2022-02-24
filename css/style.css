@@ -185,7 +185,7 @@ ul.button-side{
 /* contenitore scelta  */
 
 .choice-container{
-    margin-right: 10px;
+    margin-right: 5%;
     width: calc(100% / 3 - 5%);
     border: 1px solid grey;
     vertical-align: middle;
