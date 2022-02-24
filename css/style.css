@@ -144,6 +144,104 @@ ul.button-side{
     object-fit: cover;
 }
 
+/* main  */
+
+/* dropbox plan  */
+.dropbox-plan{
+    width: 60%;
+    margin: 15% auto;
+}
+.dropbox-plan h2{
+    font-size: 30px;
+}
+.mensile::before{
+    content:'';
+    width: 10px;
+    height: 10px;
+    border: 4px solid #0160FF;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.annuale::before{
+    content:'';
+    width: 13px;
+    height: 13px;
+    border: 1px solid grey;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.fatturazione{
+    display: inline-block;
+    padding: 50px 20px 30px 0px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+/* contenitore scelta  */
+
+.choice-container{
+    height: 700px;
+    margin-right: 40px;
+    width: calc(100% / 3 - 40px);
+    border: 1px solid grey;
+    vertical-align: middle;
+}
+.choice-container span{
+    display: block;
+}
+
+.list-table{
+    width: 90%;
+    margin: 20% auto;
+   
+}
+
+.choice-name{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+.choice-title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.choice-price{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.durata{
+    font-size: 12px;
+    color: grey;
+}
+.choice-list{
+    margin: 20% 0;
+    list-style-type: none;
+
+}
+.choice-list li{
+    margin-top: 6%;
+    font-size: 12px;
+}
+.buy-now{
+    display: inline block;
+    font-size: 12px;
+    margin: 15% 0;
+    
+}
+.buy-now a{
+    color:#0160FF;
+}
+hr{
+    width: 20%;
+}
+
 
 /* 
 
