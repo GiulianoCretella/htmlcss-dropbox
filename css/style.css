@@ -149,7 +149,7 @@ ul.button-side{
 /* dropbox plan  */
 .dropbox-plan{
     width: 60%;
-    margin: 15% auto;
+    margin: 15% auto 5%;
 }
 .dropbox-plan h2{
     font-size: 30px;
@@ -183,10 +183,11 @@ ul.button-side{
 }
 
 /* contenitore scelta  */
-
+.dropbox-plan .center{
+margin: 0 5%;
+}
 .choice-container{
-    margin-right: 5%;
-    width: calc(100% / 3 - 5%);
+    width: 30%;
     border: 1px solid grey;
     vertical-align: middle;
 }
@@ -239,6 +240,9 @@ ul.button-side{
 }
 hr{
     width: 20%;
+}
+.choice-list .fa-check{
+    color:#0160FF;
 }
 
 /* teamsection  */
