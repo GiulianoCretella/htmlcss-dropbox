@@ -1,5 +1,109 @@
+.debug{
+    border: 2px solid black;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    /* min-width: 1200px; */
+    font-family: 'Open Sans', sans-serif;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/* header  */
+nav{
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+/* logo  */
+.logo{
+    width: 6%;
+    text-align: center;
+    vertical-align: middle;
+}
+.logo img{
+    width: 100%;
+    object-fit: cover;
+
+}
+/* barra di navigazione */
+nav ul{
+    width: 42%;
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline-block;
+   
+}
+nav ul li a{
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 24.5px;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+ul.logo-side{
+    text-align: left;
+}
+ul.button-side{
+    text-align: right;
+}
+
+/* bottone navigazione */
+#inizia{
+    width: 5%;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: right;
+}
+#inizia .button{
+    text-decoration: none;
+    padding: 5px 18px;
+    background-color:#0160FF;
+    font-size: 14px;
+    color: white;
+    display: inline;
+    vertical-align: middle;
+}
+
+.jumbotron{
+    margin-top:3%;
+    height: 3000px;
+    background-color: #B3CFE7;;
+}
+
+/* 
+
+colore bottoni:#0160FF;
+colore designit:#A2D49B;
+colore arizona e testo porta dropbox business:#61082B;
+colore florida:#0093CE;
+colore topps:#FF1B1C;
+colore world bicycle:#D5001F;
+colore hearts corporation e sfondo div azzurro:#B3CFE7;
+colore lonely planet:#0D2481;
+colore clear channel:#FFD72F;
+colore floater centrale:#F5F5F5; */
+
