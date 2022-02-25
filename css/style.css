@@ -19,6 +19,7 @@ body{
     min-width: 1200px;
     font-family: 'Open Sans', sans-serif;
     height:10000px;
+    fill: currentColor;
 }
 .left{
     float: left;
@@ -26,7 +27,7 @@ body{
 .right{
     float: right;
 }
-
+  
 /* header  */
 nav{
     width: 100%;
@@ -364,25 +365,35 @@ hr{
  .user-box{
      width: 40%;
      height: 500px;
-     background-color: lightgrey ;
-     padding: 2%;
+     background-color: rgb(240, 240, 240) ;
+     padding: 4%;
   }
  .user{
      width: 50%;
      height: 50%;
      position: relative;
  }
- .user img{
+ .user svg{
+     fill: currentColor;
+     color: white;
      width: 60%;
      object-fit: cover;
      position: absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-
  }
-
-
+ 
+.designit-logo{
+    margin-bottom: 50px;
+}
+.designit-logo img{
+    width: 150px;
+}
+.user-box p{
+    font-size: 14px;
+    margin: 10% 0;
+}
  #designit{
      border: 15px solid #bcdab8;
     background-color: #A2D49B;
@@ -410,4 +421,21 @@ background-color: #0D2481;
     background-color:#FFD72F;}
 
 
+.spot-container{
+    width: 100%;
+    background-color: #B3CFE7;
+    padding: 5% 0;
+}
+.spot-box{
+    width: 60%;
+    margin: 0 auto;
+}
+.spot-title{
+   width: 50%;
+}
+.spot-title h5{
+    font-size: 40px;
+    color: #61082B;;
+
+}
 
