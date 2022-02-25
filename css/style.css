@@ -153,7 +153,7 @@ ul.button-side{
     width: 60%;
     margin: 15% auto 5%;
 }
-.dropbox-plan h2{
+section h2, section h3{
     font-size: 30px;
 }
 .mensile::before{
@@ -318,9 +318,32 @@ hr{
     font-size: 14px;
 }
 
-/* 
+/* 6-box */
 
-colore bottoni:#0160FF;
+.card-box-container{
+    width: 60%;
+    margin: 0 auto;
+}
+.cards{
+    width: 30%;
+    padding-bottom: 10%;
+}
+.cards img{
+    width: 100%;
+}
+ .card-title{
+     font-size: 25px;
+     font-weight: bold;
+     padding: 20px 0;
+ }
+ .cards p{
+     font-size: 14px;
+ }
+ .card-boxes .center{
+     margin: 0 5%;
+ }
+
+/* colore bottoni:#0160FF;
 colore designit:#A2D49B;
 colore arizona e testo porta dropbox business:#61082B;
 colore florida:#0093CE;
@@ -329,5 +352,5 @@ colore world bicycle:#D5001F;
 colore hearts corporation e sfondo div azzurro:#B3CFE7;
 colore lonely planet:#0D2481;
 colore clear channel:#FFD72F;
-colore floater centrale:#F5F5F5; */
+colore floater centrale:#F5F5F5;  */
 
