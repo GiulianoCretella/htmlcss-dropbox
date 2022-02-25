@@ -154,7 +154,7 @@ ul.button-side{
     margin: 15% auto 5%;
 }
 section h2, section h3{
-    font-size: 30px;
+    font-size: 40px;
 }
 .mensile::before{
     content:'';
@@ -324,6 +324,9 @@ hr{
     width: 60%;
     margin: 0 auto;
 }
+.card-box-title{
+    margin: 5% 0;
+}
 .cards{
     width: 30%;
     padding-bottom: 10%;
@@ -342,15 +345,40 @@ hr{
  .card-boxes .center{
      margin: 0 5%;
  }
+ .card-box-title a{
+     color:#0160FF;
+     display: block;
+     margin: 30px 0;
+ }
 
-/* colore bottoni:#0160FF;
+ /* user container  */
+ .user-container{
+     width: 100%;
+ }
+
+ .side-user-box{
+     width: 30%;
+     height: 500px;
+ }
+ .user-box{
+     width: 40%;
+     height: 500px;
+     background-color: lightgrey ;
+     padding: 2%;
+  }
+ .user{
+     width: 50%;
+     height: 50%;
+ }
+
+
 colore designit:#A2D49B;
-colore arizona e testo porta dropbox business:#61082B;
+colore arizona #61082B;
 colore florida:#0093CE;
 colore topps:#FF1B1C;
 colore world bicycle:#D5001F;
-colore hearts corporation e sfondo div azzurro:#B3CFE7;
-colore lonely planet:#0D2481;
+colore hearts corporation #B3CFE7;
+lonely planet:#0D2481;
 colore clear channel:#FFD72F;
-colore floater centrale:#F5F5F5;  */
+
 
