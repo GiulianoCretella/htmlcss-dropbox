@@ -372,13 +372,31 @@ hr{
  }
 
 
-colore designit:#A2D49B;
-colore arizona #61082B;
-colore florida:#0093CE;
-colore topps:#FF1B1C;
-colore world bicycle:#D5001F;
-colore hearts corporation #B3CFE7;
-lonely planet:#0D2481;
-colore clear channel:#FFD72F;
+ #designit{
+     border: 15px solid #bcdab8;
+    background-color: #A2D49B;
+}
+  .asu{
+    background-color: #61082B;
+  } 
+  .florida{
+    background-color:#0093CE;
+  }
+  .topps{
+  background-color:#FF1B1C;
+}
+
+  .bicycle{
+  background-color:#D5001F;
+  }
+  .hearst {
+  background-color:#B3CFE7;
+  }
+ .lonely{
+background-color: #0D2481;
+}
+
+ .clear{
+    background-color:#FFD72F;}
 
 
