@@ -16,7 +16,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-  
+    min-width: 1200px;
     font-family: 'Open Sans', sans-serif;
     height:10000px;
 }
@@ -30,12 +30,13 @@ body{
 /* header  */
 nav{
     width: 100%;
-    padding: 15px;
+    padding: 14px;
     position: fixed;
     top: 0;
     left: 0;
     background-color: white;
     z-index: 20;
+    border-bottom: 1px solid lightgray;
 }
 /* logo  */
 .logo{
@@ -51,7 +52,6 @@ nav{
 nav ul{
     width: 42%;
     list-style-type: none;
-    
 }
 nav ul li{
     display: inline-block;
@@ -62,7 +62,7 @@ nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 12px;
-    padding: 24.5px;
+    padding: 20px;
 }
 nav ul li a:hover{
     border-bottom: 1px solid black;
@@ -76,10 +76,9 @@ ul.button-side{
 
 /* bottone navigazione */
 #inizia{
-    width: 5%;
     text-decoration: none;
     vertical-align: middle;
-    text-align: right;
+    text-align: center;
 }
 .button{
     text-decoration: none;
@@ -92,7 +91,7 @@ ul.button-side{
 }
  /* jumbotron  */
 .jumbotron{
-    margin-top:4%;
+    margin-top:2%;
     background-color: #B3CFE7;;
 }
 /* titolo jumbo  */
