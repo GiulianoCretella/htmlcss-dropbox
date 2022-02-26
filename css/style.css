@@ -18,7 +18,6 @@ html{
 body{
     min-width: 1200px;
     font-family: 'Open Sans', sans-serif;
-    height:10000px;
     fill: currentColor;
 }
 .left{
@@ -471,4 +470,44 @@ background-color: #0D2481;
 .question i{
  line-height: 5em;
 }
+
+/* footer  */
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 5% 0;
+}
+ .ul-container{
+     width: 70%;
+     margin: 0 auto;
+ }
+ ul{
+     display: inline-block;
+     margin-right:90px;
+     padding-bottom: 5%;
+
+ }
+ .ul-container ul li{
+     list-style-type: none;
+     color: white;
+     font-size: 14px;
+     line-height: 2em;
+ }
+
+ .ul-container ul li:first-child{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 6%;
+ }
+ .ul-container hr{
+     width: 10%;
+ }
+  .language{
+      color: grey;
+      margin-top: 5%;
+  }
+  .language span{
+      font-size: 14px;
+      line-height: 2em;
+  }
 
