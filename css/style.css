@@ -487,16 +487,28 @@ background-color: #0D2481;
     font-weight: bolder;
     border-bottom: 1px solid lightgrey;
 }
+.question{
+    border-bottom: 1px solid lightgrey;
+}
 .question span{
     font-size: 14px;
     font-weight: bolder;
     line-height:5em;
-    border-bottom: 1px solid lightgrey;
+    
 }
 .question i{
  line-height: 5em;
 }
 
+.question-p{
+    font-size: 12px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.question:hover .question-p{
+    display: block;
+}
 /* footer  */
 footer{
     width: 100%;
