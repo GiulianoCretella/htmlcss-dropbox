@@ -520,6 +520,49 @@ hr{
     display: none;
 }
 
+/* chat-box */
+.chat{
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+}
+.chat-header{
+    width: 100%;
+    background-color: #182C80;
+    position: relative;
+}
+.chat-body{
+    background-color: white;
+    height:430px;
+}
+
+.chat-header i{
+    font-size: 30px;
+    color: white;
+    padding: 6px;
+}
+.chat-header span{
+    margin-left: 25%;
+    line-height: 2em;
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding-top: 6px;
+}
+.fa-minus{
+    position: absolute;
+    top: 0px;
+    right: 40px;
+}
+.fa-x{
+    position: absolute;
+    top: 0px;
+    right: 1px;
+}
+
 /* footer  */
 footer{
     width: 100%;
@@ -560,3 +603,6 @@ footer{
       line-height: 2em;
   }
 
+.debug{
+   border: 2px solid black;
+}
