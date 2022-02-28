@@ -84,7 +84,6 @@ ul.button-side{
 }
 .separate-menu li{
     line-height: 2em;
-    width: 100%;
 }
 
 .support:hover .separate-menu{
@@ -387,18 +386,18 @@ hr{
  }
 
  .side-user-box{
-     width: 30%;
-     height: 500px;
+     width: 30vw;
  }
  .user-box{
-     width: 40%;
-     height: 500px;
+     width: 40vw;
+     height:30vw;
      background-color: rgb(240, 240, 240) ;
      padding: 4%;
+     overflow-y: auto;
   }
  .user{
-     width: 50%;
-     height: 50%;
+     width: 15vw;
+     height: 15vw;
      position: relative;
  }
  .user .svg{
@@ -488,7 +487,7 @@ background-color: #0D2481;
     font-weight: bolder;
     border-bottom: 1px solid lightgrey;
 }
-.question{
+.question span{
     font-size: 14px;
     font-weight: bolder;
     line-height:5em;
