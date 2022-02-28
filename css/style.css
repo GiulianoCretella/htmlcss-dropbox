@@ -55,7 +55,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-   
+    position: relative;
 }
 nav ul li a{
     vertical-align: middle;
@@ -73,6 +73,31 @@ ul.logo-side{
 ul.button-side{
     text-align: right;
 }
+.separate-menu{
+    width: 200px;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    font-size: 12px;
+    background-color: white;
+    display: none;
+}
+.separate-menu li{
+    line-height: 2em;
+    width: 100%;
+}
+
+.support:hover .separate-menu{
+    display: block;
+    cursor: pointer;
+}
+
+.separate-menu li:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+
+}
+
 
 /* bottone navigazione */
 #inizia{
@@ -224,7 +249,9 @@ margin: 0 5%;
 .choice-list{
     margin: 20% 0;
     list-style-type: none;
-
+}
+.choice-list li i{
+    margin-right: 2px;
 }
 .choice-list li{
     margin-top: 6%;
@@ -356,7 +383,7 @@ hr{
 
  /* user container  */
  .user-container{
-     width: 100%;
+     width: 100vw;
  }
 
  .side-user-box{
