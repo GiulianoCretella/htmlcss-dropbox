@@ -532,10 +532,12 @@ hr{
     font-size: 14px;
     border-radius: 10px;
     box-shadow:5px 5px 10px 12px black;
+    display: none;
 }
 .chat-image:hover .chat{
-    visibility: visible;
+    display: block;
 }
+
 .chat-header{
     width: 100%;
     background-color: #182C80;
@@ -545,7 +547,6 @@ hr{
 .chat-image{
     border-radius: 50%;
     background-color: #182C80;
-    display: block;
     width: 100px;
     height: 100px;
     position: fixed;
@@ -620,10 +621,9 @@ footer{
      margin: 0 auto;
  }
  .ul-footer-container ul{
-     display: inline-block;
      margin-right:90px;
      padding-bottom: 5%;
-
+     min-height: 250px;
  }
  .ul-footer-container ul li{
      list-style-type: none;
