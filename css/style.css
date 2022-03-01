@@ -109,6 +109,9 @@ ul.button-side{
     vertical-align: middle;
     font-size: 12px;
 }
+.button:hover{
+    background-color: #4386fa;
+}
  /* jumbotron  */
 .jumbotron{
     margin-top:2%;
@@ -554,7 +557,7 @@ hr{
     bottom: 5%;
     z-index: 10;
 }
-.chat-image i{
+.chat-image .first{
     color: white;
     font-size: 50px;
     position: absolute;
@@ -563,29 +566,20 @@ hr{
     transform: translate(-50%, -50%);
 }
 
-.chat-header i{
-    font-size: 30px;
-    color: white;
-    padding: 6px;
-}
-.chat-header span{
-    margin-left: 25%;
+.chat-header section{
     line-height: 2em;
-    width: 50%;
+    width: 100%;
     font-size: 16px;
-    text-align: center;
     color: white;
     padding-top: 6px;
+    text-align: center;
 }
-.fa-minus{
-    position: absolute;
-    top: 0px;
-    right: 40px;
+.chat-header section i{
+    font-size: 30px;
 }
-.fa-x{
-    position: absolute;
-    top: 0px;
-    right: 1px;
+.chat-header section h1{
+    display: inline;
+    margin: 0 70px;
 }
 .email-box{
     width: 80%;
@@ -610,6 +604,7 @@ hr{
     border-radius: 5px;
     margin-right: 30px;
 }
+
 /* footer  */
 footer{
     width: 100%;
