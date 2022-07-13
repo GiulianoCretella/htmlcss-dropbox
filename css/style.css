@@ -389,7 +389,7 @@ hr{
      width: 30vw;
  }
  .user-box{
-     width: 40vw;
+     width: calc(100vw - 60vw - 15px);
      height:30vw;
      background-color: rgb(240, 240, 240) ;
      padding: 4%;
@@ -643,7 +643,3 @@ footer{
       font-size: 14px;
       line-height: 2em;
   }
-
-.debug{
-   border: 2px solid black;
-}
